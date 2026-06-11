@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juan Guillermo Gonzáles Brophy &#8211; CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#E8F6EF;
+    --panel:#FFFFFF;
+    --text:#111827;
+    --muted:#4B5563;
+    --accent:#0F766E;
+    --line:#CBD5E1;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    line-height:1.6;
+    padding:0;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:64px 24px 100px;}
+
+  /* HERO */
+  .hero{display:flex;flex-direction:column;gap:8px;margin-bottom:56px;}
+  .eyebrow{
+    font-family:'JetBrains Mono',monospace;
+    color:var(--accent);
+    font-size:13px;
+    letter-spacing:0.15em;
+    text-transform:uppercase;
+  }
+  h1{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:clamp(34px,6vw,52px);
+    line-height:1.1;
+    letter-spacing:-0.02em;
+  }
+  .role{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:18px;
+    color:var(--muted);
+    margin-top:4px;
+  }
+  .contacts{
+    display:flex;flex-wrap:wrap;gap:14px 24px;
+    margin-top:24px;
+    font-family:'JetBrains Mono',monospace;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .contacts a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line);}
+  .contacts a:hover{color:var(--accent);border-color:var(--accent);}
+
+  /* SECTIONS */
+  section{margin-bottom:48px;}
+  .sec-head{
+    display:flex;align-items:baseline;gap:14px;
+    margin-bottom:20px;
+  }
+  .sec-num{
+    font-family:'JetBrains Mono',monospace;
+    color:var(--accent);
+    font-size:13px;
+  }
+  h2{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:0.18em;
+    color:var(--text);
+    white-space:nowrap;
+  }
+  .sec-head::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:var(--line);
+  }
+
+  p{color:var(--muted);font-size:15px;}
+
+  /* EXPERIENCE */
+  .job{
+    margin-bottom:24px;
+  }
+  .job-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;}
+  .job-meta{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px;
+    color:var(--accent);
+    margin:4px 0 10px;
+  }
+  .job ul{list-style:none;display:flex;flex-direction:column;gap:8px;}
+  .job li{
+    font-size:14px;color:var(--muted);
+    padding-left:18px;position:relative;
+  }
+  .job li::before{
+    content:"\2022";
+    position:absolute;left:0;color:var(--accent);
+    font-size:14px;
+    line-height:1;
+  }
+
+  /* EDUCATION & COURSES */
+  .edu-title{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:17px;}
+  .edu-meta{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--accent);margin-top:4px;}
+
+  ul.simple{list-style:none;display:flex;flex-direction:column;gap:12px;}
+  ul.simple li{font-size:14px;color:var(--muted);padding-left:18px;position:relative;line-height:1.7;}
+  ul.simple li::before{content:"\2022";position:absolute;left:0;color:var(--accent);}
+
+  footer{
+    margin-top:60px;
+    padding-top:24px;
+    border-top:1px solid var(--line);
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px;
+    color:var(--muted);
+  }
+
+  @media(max-width:480px){
+    .wrap{padding:40px 18px 80px;}
+    .sec-head{gap:10px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="eyebrow">Curriculum Vitae</div>
+    <h1>Juan Guillermo<br>Gonzáles Brophy</h1>
+    <div class="role">Estudiante de Ingeniería de Software con IA &#8211; SENATI</div>
+    <div class="contacts">
+      <a href="mailto:gonzalesbrophy@gmail.com">gonzalesbrophy@gmail.com</a>
+      <a href="https://github.com/senatijuanbrophy-coder" target="_blank" rel="noreferrer">github.com/senatijuanbrophy-coder</a>
+      <a href="https://www.linkedin.com/in/juan-guillermo-gonzales-brophy-4544682a7/" target="_blank" rel="noreferrer">linkedin.com/in/juan-guillermo-gonzales-brophy-4544682a7</a>
+      <span>962130515</span>
+      <span>Piura, Perú</span>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">01</span><h2>Perfil profesional</h2></div>
+    <p>Estudiante de Ingeniería de Software con Inteligencia Artificial en SENATI, con interés en el desarrollo de soluciones tecnológicas innovadoras. Proactivo, con capacidad de trabajo en equipo, aprendizaje rápido y motivación por aplicar herramientas de IA y automatización en proyectos reales que generen valor.</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">02</span><h2>Experiencia laboral</h2></div>
+
+    <div class="job">
+      <div class="job-title">Asistente de Soporte Técnico</div>
+      <div class="job-meta">MAR 2025 &#8211; AGO 2025 &middot; Emprender Perú</div>
+      <ul>
+        <li>Brindar soporte técnico a usuarios internos, resolviendo incidencias de hardware y software.</li>
+        <li>Apoyar en la configuración e instalación de equipos y programas.</li>
+        <li>Elaborar reportes de incidencias y dar seguimiento a su resolución.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Practicante de Desarrollo de Software</div>
+      <div class="job-meta">ENE 2025 &#8211; MAR 2025 &middot; Emprender Perú</div>
+      <ul>
+        <li>Colaborar en el desarrollo y mantenimiento de aplicaciones internas.</li>
+        <li>Realizar pruebas funcionales y documentar resultados.</li>
+        <li>Participar en reuniones de coordinación con el equipo de desarrollo.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">03</span><h2>Proyectos destacados</h2></div>
+
+    <div class="job">
+      <div class="job-title">Sistema de control de inventario</div>
+      <div class="job-meta">Python, Flask, PostgreSQL</div>
+      <ul>
+        <li>Desarrollé una aplicación web para registrar entradas y salidas de productos, generar reportes y alertas de stock.</li>
+        <li>Implementé autenticación de usuarios y panel administrativo con gráficos de indicadores clave.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Chatbot de atención al cliente</div>
+      <div class="job-meta">NLP, Python, Dialogflow</div>
+      <ul>
+        <li>Creé un asistente virtual que responde consultas frecuentes y redirige solicitudes al equipo de soporte.</li>
+        <li>Mejoré la experiencia de usuario automatizando respuestas en lenguaje natural y reduciendo tiempos de atención.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Portafolio web responsive</div>
+      <div class="job-meta">HTML, CSS, JavaScript</div>
+      <ul>
+        <li>Diseñé y desarrollé un sitio personal adaptable para mostrar proyectos, habilidades y datos de contacto.</li>
+        <li>Optimicé la presentación visual con un diseño oscuro moderno y estructura clara para reclutadores.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">04</span><h2>Formación académica</h2></div>
+    <div class="edu-title">Ingeniería de Software con Inteligencia Artificial</div>
+    <div class="edu-meta">SENATI · 2024 – 2027 (en curso)</div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">05</span><h2>Habilidades técnicas</h2></div>
+    <ul class="simple">
+      <li><strong>Python</strong> — Desarrollo, scripting y automatización.</li>
+      <li><strong>JavaScript</strong> — Frontend e interactividad.</li>
+      <li><strong>Flask & APIs</strong> — Backend ligero y servicios web.</li>
+      <li><strong>IA / NLP</strong> — Modelos básicos y chatbots.</li>
+      <li><strong>Bases de datos</strong> — PostgreSQL y SQLite.</li>
+      <li><strong>Control de versiones</strong> — Git y GitHub.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">06</span><h2>Cursos y capacitaciones</h2></div>
+    <ul class="simple">
+      <li>Fundamentos de IA y Machine Learning — SENATI, 2025.</li>
+      <li>Programación en Python para Ciencia de Datos — SENATI, 2025.</li>
+      <li>Inglés Técnico para TI — Nivel Intermedio, 2024.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">07</span><h2>Actividades extracurriculares</h2></div>
+    <ul class="simple">
+      <li>Miembro del club de robótica e innovación tecnológica de SENATI.</li>
+      <li>Participación en hackathon estudiantil de soluciones con IA (2025).</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">08</span><h2>Información adicional</h2></div>
+    <ul class="simple">
+      <li>Manejo de herramientas de Microsoft Office, Google Workspace y Git.</li>
+      <li>Comunicación efectiva, trabajo colaborativo y capacidad de organización.</li>
+      <li>Disponibilidad para trabajo remoto y presencial. Referencias disponibles a solicitud.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Referencias laborales disponibles a solicitud.
+  </footer>
+
+</div>
+</body>
+</html>

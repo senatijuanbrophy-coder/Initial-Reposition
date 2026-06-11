@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio Virtual - Juan G. Gonzáles Brophy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#EFF8FF;
+    --panel:#FFFFFF;
+    --text:#111827;
+    --muted:#4B5563;
+    --accent:#0F766E;
+    --line:#D1D5DB;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
+  .container{max-width:860px;margin:0 auto;padding:40px 24px 80px;}
+  h1,h2{margin:0;} h1{font-size:clamp(32px,5vw,46px);letter-spacing:-0.02em;} h2{font-size:16px;text-transform:uppercase;letter-spacing:0.18em;color:var(--accent);margin-bottom:16px;}
+  .intro{margin-bottom:28px;}
+  p{color:var(--muted);font-size:15px;}
+  section{margin-bottom:42px;}
+  .sec-head{display:flex;align-items:center;gap:12px;margin-bottom:16px;}
+  .sec-num{font-family:'Inter',sans-serif;color:var(--accent);font-weight:700;font-size:13px;letter-spacing:0.2em;text-transform:uppercase;}
+  .divider{flex:1;height:1px;background:var(--line);}
+  ul{padding-left:18px;}
+  li{margin-bottom:12px;color:var(--muted);}
+  li strong{color:var(--text);}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+  .gallery figure{margin:0;}
+  .gallery img{width:100%;border-radius:12px;display:block;}
+  .gallery figcaption{margin-top:8px;font-size:13px;color:var(--muted);}
+  .button{display:inline-block;margin-top:14px;padding:12px 18px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;}
+  footer{margin-top:50px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}
+</style>
+</head>
+<body>
+<div class="container">
+  <header class="intro">
+    <div class="sec-head"><span class="sec-num">Portafolio Virtual</span><div class="divider"></div></div>
+    <h1>Juan Guillermo Gonzáles Brophy</h1>
+    <p>Soy estudiante de Ingeniería de Software con Inteligencia Artificial en SENATI. Me especializo en proyectos orientados a la mejora de procesos, automatización y aplicaciones web que integran soluciones sencillas y funcionales.</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/juan-guillermo-gonzales-brophy-4544682a7/" target="_blank" rel="noreferrer">juan-guillermo-gonzales-brophy-4544682a7</a></p>
+  </header>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">01</span><div class="divider"></div></div>
+    <h2>Presentación personal</h2>
+    <p>Me destaco por mi capacidad de aprendizaje rápido, sentido de responsabilidad y enfoque en el trabajo colaborativo. Busco construir experiencias digitales bien estructuradas y aportar con ideas claras en equipos de desarrollo.</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">02</span><div class="divider"></div></div>
+    <h2>Formación académica</h2>
+    <ul>
+      <li><strong>Ingeniería de Software con Inteligencia Artificial</strong> – SENATI (2024-2027, en curso).</li>
+      <li><strong>Fundamentos de IA y Machine Learning</strong> – SENATI, 2025.</li>
+      <li><strong>Programación en Python para Ciencia de Datos</strong> – SENATI, 2025.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">03</span><div class="divider"></div></div>
+    <h2>Proyectos destacados</h2>
+    <ul>
+      <li><strong>Sistema de control de inventario</strong> – Aplicación web desarrollada con Python, Flask y PostgreSQL para gestionar productos, emitir alertas de stock y generar reportes.</li>
+      <li><strong>Chatbot de atención al cliente</strong> – Asistente virtual con NLP y Dialogflow para contestar preguntas frecuentes y mejorar la atención al usuario.</li>
+      <li><strong>Portafolio web responsive</strong> – Sitio diseñado con HTML, CSS y JavaScript para mostrar proyectos, habilidades y datos de contacto de forma clara y accesible.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">04</span><div class="divider"></div></div>
+    <h2>Evidencias visuales</h2>
+    <div class="gallery">
+      <figure>
+        <img src="images/inventario.png" alt="Captura de sistema de inventario">
+        <figcaption><strong>Evidencia 1:</strong> Captura de pantalla del sistema de inventario.</figcaption>
+      </figure>
+      <figure>
+        <img src="images/chatbot.png" alt="Interfaz de chatbot de atención al cliente">
+        <figcaption><strong>Evidencia 2:</strong> Interfaz del chatbot de atención al cliente.</figcaption>
+      </figure>
+      <figure>
+        <img src="images/portafolio.png" alt="Portafolio web responsive">
+        <figcaption><strong>Evidencia 3:</strong> Portafolio web responsive para mostrar proyectos.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">05</span><div class="divider"></div></div>
+    <h2>Logros y reconocimientos</h2>
+    <ul>
+      <li>Participación en hackathon estudiantil de soluciones con IA (2025).</li>
+      <li>Miembro activo del club de robótica e innovación tecnológica de SENATI.</li>
+      <li>Reconocido por trabajo en equipo y entrega de proyectos dentro de los tiempos establecidos.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">06</span><div class="divider"></div></div>
+    <h2>Link del CV</h2>
+    <p>Este portafolio integra el CV basado en el modelo trabajado en clase. Puedes ver el documento completo desde el siguiente enlace:</p>
+    <a class="button" href="CV_Juan_Gonzales_Brophy (1).html" target="_blank" rel="noreferrer">Ver CV completo</a>
+  </section>
+
+  <footer>
+    <p>Trabajo realizado con enfoque en claridad, redacción cuidada y diseño sobrio para destacar la información importante sin elementos distractores.</p>
+  </footer>
+</div>
+</body>
+</html>
